@@ -232,7 +232,7 @@
     return {x: newX, y: newY};
   };
 
-  $(document).on('turbolinks:load', function(){
+  $(document).ready(function(){
      $('.tooltipped').tooltip();
    });
 }( jQuery ));

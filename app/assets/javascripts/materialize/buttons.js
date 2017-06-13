@@ -1,5 +1,5 @@
 (function ($) {
-  $(document).on('turbolinks:load', function() {
+  $(document).ready(function() {
 
     // jQuery reverse
     $.fn.reverse = [].reverse;
