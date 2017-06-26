@@ -1,8 +1,26 @@
+// breakpoints
+$screen-sm: 48em !default;
+$screen-md: 62em !default;
+$screen-lg: 75em !default;
+
+// container sizes
+$container-sm: 46rem !default;
+$container-md: 61rem !default;
+$container-lg: 71rem !default;
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-right: 2rem;
   padding-left: 2rem;
+}
+
+.col {
+  display: flex;
+}
+
+.col .card {
+  width: 100%;
 }
 
 .row {
@@ -1009,10 +1027,3 @@
   }
 }
 
-.col {
-  display: flex;
-}
-
-.col .card {
-  width: 100%;
-}
